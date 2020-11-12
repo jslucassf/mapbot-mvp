@@ -1,0 +1,874 @@
+landmark_alias,landmark_fk
+Anel do Brejo,4
+Bloco 1B e Bloco 2B (Cipresa),5
+Parque Maria da Luz,6
+Escola Estadual Irmã Joaquina Sampaio,7
+Banco do Brasil,10
+Posto Roma,11
+Terminal Rodoviário de Campina Grande,13
+ARBORIZAÇÃO AO REDOR DO CAMPO DE FUTEBOL,19
+Bar do Dudu,23
+E.E.E.F.M Monte Carmelo,24
+Bar do Bode,25
+Petrópilos Steakhouse,27
+campo de futebol,30
+Centro Especializado em Reabilitação,34
+Campina Grande,36
+Açude de Bodocongó,40
+Canal do Prado,41
+Centro Juridico Rafael Mayer,42
+Estacionamento da Catedral Diocesana Nossa Senhora da Conceição,49
+RedePharma,53
+Motel Delírius,54
+Laboratório de Informática 1,55
+Monumento de Adoração à Biblía,56
+Escola Estadual de Ensino Fundamental de Aplicação,58
+Vila Riacho Bodocongó,62
+Palacio das Artes Suellen Carolini,65
+Igreja Batista Cristo Vive,66
+Praça Quinze de Novembro,67
+Igreja da sagrada Familía,68
+Gabriela,69
+Posto Sudoeste,71
+Escola Marizete Raposo Nascimento,78
+Busto de Elpídio de Almeida,79
+Bloco BF (UFCG),81
+Sabor e Requinte,86
+Área de Vivência,87
+Bloco 1F e Bloco 2F (Cipresa),91
+Praça Mural das Flores,97
+Igreja Congrecional da Zona Sul,99
+5,102
+Hotel Central,104
+Farmácia Dias,109
+Bloco Administrativo,112
+Riacho Marinho,113
+Posto São Luiz I,115
+Praça Centenário,116
+Igreja Biblíca Semear,125
+UPP,129
+CANTEIRO CENTRAL,138
+Fit Club,141
+Posto São Luiz III,144
+Hospital Campina Grande,146
+CAVALCANTI HOUSE,147
+Bloco AL (Centro de Extensão - UFCG),150
+Kasa Decor,153
+Residencial Cipresa,154
+Templo das Testemunhas de Jeová,157
+Sorrifácil,161
+Oca do Açaí,174
+Laboratório de Mineralogia,187
+Bloco AF (Santander),189
+Residencial Canaã,194
+Bloco CV (UFCG),195
+Império Multimarcas,196
+Churrascaria do Paraná,197
+Tio Wei,202
+Igreja São Viciente de Paula,205
+Biblioteca Central (UFCG),206
+Bloco BR (UFCG),207
+Estação de Esgoto da UEPB/CAgepa,213
+Teatro Facisa,217
+Bloco CY (UFCG),218
+FIEP,220
+Escola Estadual Assis Chatteaubriand,222
+6,223
+Granja Sião,225
+Margem do Canal da Ramadinha,232
+Posto Policial Chã Do Marinho,233
+ESCOLAR,236
+Supermercado Ideal,237
+Praça Félix Araújo,238
+Riacho Riachão,239
+Lago,244
+Escola Polivalente Senador Argemiro de Figueiredo,247
+Campo do Canajú,252
+Fontes Renovaveis,254
+Campo de Futebol da Feirinha,258
+Parque Ana Vilar,259
+Canal Fluvial de Bodocongó,260
+Campo de Areia,262
+Telemarketing,264
+Churrasquinho do Sr. Marcos,265
+Clínica Dr. Wanderley,266
+Recanto Feliz,267
+Clínica de Olhos Francisco Pinto,269
+Kabana Burg,270
+Fiori,271
+Estação de Gás,275
+Praça Procurador de Justiça Alcindor de Oliveira Villarin,279
+Igreja Presbiteriana de Campina Grande,282
+Bradesco,283
+EDIFICAR,284
+AutoShopping Campina,286
+Quadra Poliesportiva do Residencial Cipresa,287
+Mini Campo,288
+MIEP,293
+Casa da Cidadania,294
+Santa Cruz,298
+Ponto aproximado,303
+Sala de Aula 01,306
+Terreno da Prefeitura,309
+Cavesa,311
+Arquibancada Norte,318
+Praça Sebastião Santos,324
+Café Vila Nova da Rainha,327
+Minibox Deus é Fiel,329
+Igreja  catolica do Massapê,331
+Cemitério Municipal de Lagoa Seca,333
+Paróquia de Santa Rosa de Lima,341
+Silvana,342
+UEPB - Universidade Estadual da Paraíba,344
+UEPB,344
+conjunto residencial,349
+Banca Revistalândia,354
+Vila Olimpica,356
+Centro de Humanidade (UFCG),361
+Praça Giradouro da Av. Floriano Peixoto,362
+Residencial Santa Inez,363
+Dubu VI,364
+Pague Menos,365
+Shopping Cirne Center,367
+Praça da Escola Publica do Severino Cabral,368
+O Skinão,369
+Lanchonete do Parque,370
+Sabor da Terra,372
+Praça José Américo,376
+Piscina Hotel Garden,379
+Retalho de Área Verde,380
+Bloco CB - REENGE (UFCG),382
+Bloco CG (UFCG),385
+Parque Tobias Di Pace,386
+Nord Easy Hotel,387
+Mata do Louzeiro,389
+Padaria Golden Massas,391
+Edifício Monte Carlo,392
+Praça Frei Manfredo,396
+Carajás,400
+Banco do Nordeste,406
+Panificadora Fripão,407
+Campina Grande (Velha),409
+Vila Csu,419
+Laboratório de Informática 03,422
+Santander,426
+O Espetão - Bar e Restaurante,429
+Subway,432
+ÁREA VERDE,434
+Igreja Senhor do Bonfim,440
+Praça do Coreto da Reitoria,445
+E. E. E. F. Irmã Stefanie,448
+Posto Sertões,451
+Via Aezza,456
+Coordenação de Tecnologia da Informação,461
+Caixa,467
+Residencial Renato Rocha,469
+Vepel,477
+Posto de Combustível Marília,479
+Atacadão,480
+Bloco H (Cipresa),481
+Sin-Saúde Integrativa,482
+Davi Lanches,483
+E.E.E.F.M Ademar Veloso Da Silveira,489
+Memorial do Trem,490
+Look Modas,491
+Praça Pedra do Sapo,493
+Skina da Tapioca,494
+Posto de Saúde do Cinza,496
+Loja da RiHappy,497
+Nildo Lanches,503
+O Vergalhão - home center,507
+Bloco CH (UFCG),510
+Centro de Convenções Raimundo Asfora,511
+Centro de Engenharia Elétrica e Informática (CEEI - UFCG,523
+Cemitério do Monte Santo,532
+Unidade de coleta CONTRAMARE,543
+Gerson,544
+Paróquia de Nossa Senhora das Graças,558
+Praça Professor Chico Colares,563
+Campo de Futebol,564
+Quadra de Vôlei do Residencial Cipresa,571
+Praça Maurício Moura,577
+Parque do Coreto,580
+Spazzio,584
+Panificadora Belém Efrata,588
+Vila do Artesão,590
+Luiz Gonzaga,600
+Rio Bodocongó,601
+Igreja Pentecosta Brasil para Cristo,606
+Estacionamento Externo do Partage Shopping,607
+CREA - Consenho Regional de Engenharia,608
+Estacionamento Spazzio,617
+Bloco BW1 (UFCG),619
+Açaí Concept,620
+Pele,621
+Rede Pharma,634
+Bloco BN (UFCG),635
+Praça do Trabalho,637
+Bloco CW (UFCG),643
+Clínica Santa Clara,644
+Fiteiro,652
+Praça do CA,660
+Padaria Luna,661
+pasto para gado,662
+Anfiteatro Facisa,663
+Ailton casa,669
+Igreja São José,672
+Anfiteatro,673
+Campina Grande (Nova),677
+Central Revestir,683
+Laboratório de Programação 2,685
+Posto MasterGás,691
+Hospital da Criança e do Adolescente,693
+Tartaruga Burg,694
+Industria de Vidro,702
+Colégio Estadual da Prata,703
+Lave Quali,710
+EMEIEF Zezito Ribeiro,712
+Sesi Prata - Centro de Atividades,713
+Giraffa's,715
+Farra de Bodega,716
+Confortel Executive,718
+Igreja Cristã Nova Vida,720
+Ginásio Municipal Santiago Herculano de Lima,721
+Distrito Industrial de Queimadas,722
+Dias,724
+Campo do Leão,727
+The Woods Restô Bar,731
+Árvore dos namorados,737
+Edifício Jardim di Fiori,743
+Giga Byte,748
+Celino Business Center,750
+Ki Pastel da Liberdade,758
+Espaço dos Professores,763
+Cine Capitólio,766
+Escola Municipal Gracita Melo,767
+Sesc Centro,768
+Café Poético,774
+Parque da Liberdade,777
+Restaurante dois irmãos,780
+Escola Sonho e Realidade,784
+Centro de Formação de Educadores,785
+Bloco CL (UFCG),790
+Comercial Braga,791
+Forúm Afonso Campos,794
+Régua Spetuss,801
+Freitas,802
+Bloco BU (UFCG),806
+Igreja Capela da Guia,808
+Supermecado Todo Dia,812
+Forno Nobre Massas Finas,815
+Praça Lino Cavalcante,819
+Instituto dos Cegos,822
+São Paulo Alpargatas,827
+Memorial a Teodósio de Oliveira Lêdo,831
+Quadra de Tênis Hotel Garden,834
+Estacionamento CCT / CTRN,835
+Bloco BE (UFCG),836
+Ginásio,837
+CAMPO DE FUTEBOL,838
+Cemitério do Santíssimo,839
+Posto Bodocongó,844
+Centro de atenção Integral da criança,849
+Campo do Leonel,850
+Árvore do Parquinho,851
+Bloco BF2 (UFCG),854
+Catedral Diocesana Nossa Senhora da Conceição,855
+Barbershop,871
+JB Quentinhas,881
+Praça da Bandeira,887
+Pirâmide do Parque do Povo,889
+Bloco BV1 (UFCG),891
+Santo António,894
+Parque do Povo,899
+PP,899
+Museu de Arte Assis Chateaubriand,901
+Colégio Padre Anchieta,907
+Slap,908
+Escola Municipal 2,911
+Murão Restaurante & Churrascaria,914
+Clube Campestre,918
+Parque da Criança,919
+PDC,919
+Escola Instituto São Vicente de Paula,920
+Pastel do Leandro,924
+Óticas Diniz,925
+Mercadinho do Zezinho,926
+Dida's Lanches,929
+Creche,931
+Parque do Laguinho da UFCG,939
+Boi e Brasa Churrascaria,945
+Sedução,951
+A Matutinha,965
+Coreto,984
+Jacauna,987
+O Meninão,996
+Laboratório de Biologia,999
+Motel OK,1000
+Igreja A Caminho de Sião,1013
+Granja Santa Ana,1019
+Bloco BB - Praça de Alimentação (UFCG),1023
+Uninassau,1040
+Nassau,1040
+Nassau Estação Velha,1040
+Estacionamento - Setor C,1041
+Pracinha ESFIT,1042
+Residencial Serra Ville Privê,1046
+RG Lanches,1051
+Campimagem,1057
+Convento São Francisco,1059
+Igreja do Rosário,1063
+Estádio Presidente Vargas,1075
+Casa de Davi Casa de Oração,1078
+Laboratório de Ciências e Tecnologias Agroambientais - LICTA (UFCG),1083
+Delta Tour Viagens,1084
+Garden Hotel,1088
+Parque do Portal Sudoeste,1091
+O Escritório Bar & Restaurante,1095
+Massas Finas,1107
+Tribunal do Júri,1110
+Edifício Solar das Acácias,1113
+Rodoviária,1116
+Bloco CZ (UFCG),1125
+Posto Santo António,1130
+Parquinho do Parque da Liberdade,1134
+PSF Três Irmãs,1137
+China Taiwan,1139
+Vila Priquito,1148
+Tec Lanches,1150
+Churros e Lanches,1159
+Escola Estadual Severiano Pedro do Nascimento,1161
+Capela Cristo Rei,1163
+Evviva Bertolini,1164
+Motel Taiti,1165
+Hospital de Traumas Dom Luiz Gonzaga Fernandes,1169
+Posto Sat,1180
+Posto Milênio,1190
+Q-Delícia,1192
+João Carga d'Água,1193
+Empório da Tapioca,1199
+Facisa Food Park,1207
+Área verde,1208
+3,1212
+Bloco CP2 (UFCG),1220
+Estacionamento do Hospital de Traumas Dom Luiz Gonzaga Fernandes,1223
+Via Mirante,1225
+Panificadora Basílio I,1239
+Residencial Santa Inez II,1242
+Espaço carioca,1243
+Carpe Diem,1244
+Laboratório de Programação 4,1253
+LABINF (UFCG),1254
+Canal das Três Irmãs,1256
+Comunidade de São Pio X,1273
+Quadra do Colégio Motiva,1276
+Montreal,1277
+Eskina Bar,1294
+Auto Escola Santo André,1296
+Praça das Engenharias,1300
+Bloco BS (UFCG),1302
+Glacê Real,1304
+Pestiscaria,1307
+Madereira,1308
+Clínica Veterinária Dr. Salomão,1321
+UFCG - Centro de Ciências Biológicas e da Saúde,1323
+academia popular,1324
+Vila Nova Brasília,1334
+Açude,1336
+ESTUFA (UFCG),1338
+Praça Hilton Motta,1341
+Eng. de Alimentos (UFCG),1342
+Oficina,1345
+Museu do Algodão,1346
+Hospital Universitário Alcides Carneiro,1348
+Pista de Skate do Parque da Liberdade,1349
+Cantina da Dona Inês (UFCG),1355
+Juscelino Kubitshek,1358
+Bloco CI (UFCG),1365
+Escolinha de Futebol Hulk Paraíba,1366
+Escola Municipal,1367
+Lanchonete,1375
+Laboratório de Hardware,1377
+Forno de Pizza,1378
+Sapateiro's Bar,1381
+Unimed Campina Grande,1384
+Praça da Igreja Nossa Senhora Rainha da Paz,1387
+Localiza Hertz,1388
+Praça Clementino Procópio,1392
+Natural's,1398
+Parque Bodocongó,1406
+Bloco BJ (UFCG),1409
+Vila Araxá,1410
+Juca Lanches,1414
+Motel Bel Recanto,1415
+Super Atacado Bom Todo,1417
+Mural de Aimes e Jogos,1421
+Bloco AI (Banco do Brasil),1424
+Posto Fechine,1425
+Vila Catingueira,1431
+Lanchonete DR,1435
+Monumento a João Rique,1437
+Nina Lanches,1443
+Museu Digital de Campina Grande,1445
+Vila Broto Motel,1447
+Estadual da Palmeira,1448
+desconecido,1451
+Maxxi Atacado,1453
+Árvore da academia,1454
+Uunidade de Pronto Atendimento - UPA,1455
+Yázigi,1458
+Shop Motel,1459
+Escola Municipal Dr. Chateaubriand,1461
+Redecompras,1464
+Bloco AE (Ginásio de Esportes - UFCG),1465
+Casa do Lanche,1466
+Banco Itaú,1484
+Banco do Brasil Estilo,1497
+Posto Viaduto,1500
+Bloco CT (UFCG),1501
+Cerast,1502
+Igreja Nossa Senhora de Fátima,1503
+praça dos pneus,1512
+Vitamilho,1516
+Praça Cônsul Joseph Noujaim Habib Nacad,1521
+Bodódromo Bar e Restaurante,1524
+Colégio Motiva,1531
+Laboratório de Sistemas Distribuidos (UFCG),1533
+EMBRAPA,1535
+Residencial Bons Amigos III,1536
+Palazzo Roberto Pinto,1540
+Posto do Eraldo,1549
+PSF Adalberto Cesar,1550
+Bloco CD (UFCG),1552
+Baiba Espetinho,1553
+Estacionamento do Shopping Luiza Mota,1562
+Loft54,1569
+Pousada Granville,1570
+Campo O Madrugão,1573
+Estádio Renato Cunha Lima,1576
+Estacionamento - Setor A,1578
+Metrologia (UFCG),1582
+Central de Aulas,1587
+Vila Linha Férrea,1593
+Vison Locadora,1596
+Presídio do Monte Santo,1602
+Shopping Luiza Motta,1609
+Bloco BM (UFCG),1611
+Canal da UFCG,1615
+Bloco CA (UFCG),1621
+IECOM (UFCG),1624
+Sala de Aula 07,1629
+4,1630
+Parque infantil,1635
+Supermecado Econômico,1642
+Bloco CX / CX1 (UFCG),1643
+Apta - Assistência Pós Vida,1645
+Vila Ramadinha,1647
+Estacionamento,1648
+Bloco BB (UFCG),1650
+Casa mãe Ailton,1668
+Bloco de Física,1671
+Polícia Rodoviária Federal,1677
+Barbearia Tropeiros,1679
+Campo Santo Parque da Paz,1683
+Hospital Antônio Targino,1684
+Posto Laís XVI,1694
+Metallouça Indústria de Produtos Metalúrgicos do Nordeste SA,1697
+Bloco BQ (UFCG),1698
+Bar do Evandro,1700
+Restaurante do Sosthenis,1702
+Central de aulas,1703
+Bar do Federal,1704
+Auditório Ana Cláudia Mousinho Lucena,1709
+Panificadora Point das Massas,1711
+Show Bar,1716
+Parquinho.,1720
+Posto Monumento,1722
+Bloco CK (UFCG),1723
+igreja sao judas tadeu,1731
+Companhia de Água e Esgotos da Paraíba - CAGEPA,1733
+Gerdau,1735
+Bonna Pizza,1752
+TRE,1755
+Benvenuto Residenziale,1757
+Virtus,1758
+Shopping Pátio Cidade Nova,1763
+Jackson do Pandeiro,1769
+Departamento Estadual de Transito - DETRAN,1774
+Parada Obrigatória,1781
+Vila 3 Irmãos,1789
+Condominio Flamboyant,1797
+Afonso Bike,1804
+Korpus Academia,1813
+Jose Galdino Pereira,1839
+Bloco BV (UFCG),1845
+bar da bisteca,1846
+Sariema Novos e Seminovos,1851
+TABACARIA DO TITO,1852
+Caixa Econômica Federal,1853
+Pousada Sudoeste,1856
+Memorial Campina Grande 150 anos,1859
+Supermercado Compre Mais,1861
+Fármacia Rede Vida,1863
+Oficina do Salgado,1871
+Santuário da Santissima Trindade,1872
+Café Desembarque,1874
+Jô Fashion,1880
+Congregação Cristã do Brasil,1881
+Feira da Prata,1885
+Mercearia do Seu Basto,1887
+Coliseum Center,1888
+Vão Livre Estruturas Metálicas,1900
+Escola Arco-Íris do Saber,1906
+Residencial Dubu VI,1908
+Jetset moda masculina,1910
+Bosque da UFCG,1911
+Mini Box 774,1912
+Niscar,1923
+Central de Laboratórios do DEE (UFCG),1925
+Açude da Fazenda Cafundó,1927
+Hospital da FAP,1928
+Cabana's Burguer,1931
+EMPASA - Empresa Paraibana de Abastecimento e Serviços Agrícolas,1932
+Minibox do Enoque,1937
+Bloco AO (UFCG),1938
+Bar do Nilson,1941
+Banca do Orlando,1944
+Bloco BC (Central de Aulas - UFCG),1946
+Casa do Encanador,1948
+Bloco CR (UFCG),1949
+Wizard,1950
+Farmacia dias,1955
+Termoelétrica Campina Grande,1957
+Escola Estadual de Ensino Fundamental do Rosário,1958
+Escola Estadual Irmã Zuleide Porto,1959
+Supermercado Santos,1965
+Sousa,1966
+Fechine,1967
+Escola Virgem de Lourdes - Lourdinas,1969
+Seminário Diocesano São João Maria Vianey,1975
+Campo de Futebol do Parque da Liberdade,1981
+Atmosphera Residence,1985
+Cemitério José Pinheiro,1987
+Posto Shopping,1990
+Clipsi Hospital Geral,1993
+Laboratório de Redes,1997
+Bloco BX (UFCG),2004
+Extra Hipermercado,2006
+CITTA,2011
+Lara Lanches,2023
+Posto Santa Ana,2037
+Bar do Cuscuz,2044
+BDC,2044
+LABDES (UFCG),2047
+AutoClub,2049
+Bar do Alcides,2051
+Tenda Cultural do Parque da Liberdade,2053
+Paróquia de Igreja do Rosário,2056
+Santos Dummont,2057
+COMPLEXO FACISA,2069
+Restaurante O Lindão,2079
+Superintendência de Trânsito e Transportes Públicos,2080
+Bloco CY1 (UFCG),2083
+Pousada Laranjeiras,2084
+Panificadora Tropical,2088
+Bloco CM (UFCG),2090
+Bloco 1G e Bloco 2G (Cipresa),2091
+Central da Construção,2094
+Bloco BK (UFCG),2095
+Bloco de Mineração,2103
+Hospital João XXIII,2104
+Borracharia,2105
+Vila Forró,2114
+Condominio Residence Privê,2116
+Hiper Bompreço,2117
+Praça Augusto dos Anjos,2119
+SENAI - Centro de Educação Profissional,2127
+Forte Militar,2128
+Bolo Mania,2129
+Savoy,2134
+Bloco D (Cipresa),2137
+Museu de Arte Contemporânea da Paraíba,2143
+Coreto do CAA,2148
+Bloco CV1 (UFCG),2151
+Bloco BT (UFCG),2152
+Escola do SESI,2153
+Rock Burguer,2164
+Sede dos Correios,2165
+Hotel do Vale,2168
+Presidente,2170
+Hotel Getúlio Vargas,2171
+Bloco BG (UFCG),2176
+Estacionamento do Parque da Liberdade,2178
+Villa Chopp,2180
+SESC Açude Velho,2191
+Tubos Nogeueiras,2194
+Atecel - Geotecnia,2199
+Vila Jardim Continental,2205
+Parque Evaldo Cruz,2208
+Hospital Doutor Edgley,2212
+Makro - Campina Grande,2213
+Distribuidora da Coca-cola,2218
+Clinica Uninassau,2219
+Madeireira Planalto,2220
+Cycy Massas Finas,2224
+Praça do Coreto do laguinho,2228
+Colégio Motiva Catolé,2233
+Instituto de Saúde Elpídio de Almeida,2239
+Vila Teimosa,2240
+Clínica Santa Maria,2244
+Nutricarnes,2245
+Bloco AK (Creduni - UFCG),2250
+Preço Bom,2254
+Bloco AH (Posto Médico - UFCG),2260
+Recanto do Picuí,2263
+O Assadão,2267
+Ki-Lanches,2272
+Bloco AJ (UFCG),2275
+Bem Barato,2278
+Terminal de Integração,2284
+Bloco BH (UFCG),2300
+Escola Cassiano Pascoal Pereira,2301
+Casa.,2305
+Solare Empresarial,2308
+Igreja Pentecostal Evangélica da Fé,2313
+Padaria Renascer,2314
+Posto Alto da Serra,2316
+Urca Grill,2317
+Bloco CS (UFCG),2321
+CertBio (UFCG),2344
+Açougue FrigoBoi,2347
+Picanha 200,2348
+Quiosque de Marcos,2349
+Praça Rosa Mística,2350
+Bloco AL1 (Centro de Extensão - UFCG),2351
+O Boticário,2352
+Escola Estadual Nenzinha Cunha Lima,2355
+Saloon Bar,2359
+Forúm Juiz Nereu Santos - Justiça Federal,2361
+Mercadinho de Neto,2364
+Airton Cabeleireiros,2366
+Bloco CAA (UFCG),2371
+Espaço D,2374
+Restaurante Miúra,2377
+INSS,2379
+Igreja União,2387
+Posto Lagoão,2392
+Hotel Village,2395
+Bloco BP (UFCG),2396
+Shopping Campina Grande,2399
+Posto Anel Do Brejo,2400
+Laboratório de Eletrônica Analógica,2402
+Bloco AF1 (Caixa Econômica Federal),2406
+Bloco CA1 (UFCG),2407
+Teatro Municipal Severino Cabral,2413
+Escola Instuto São Vicente de Paula,2414
+Sapore d´ Itália,2417
+Residencial Prime,2418
+Unidade Pedagógica 16 de Julho,2420
+Bragapharma,2432
+Bloco CQ (UFCG),2434
+Polícia Militar,2436
+Rei dos Salgados,2446
+Laboratórios de PeG e Contrução de Edifícios,2448
+Mercadinho Nota 10,2451
+Frida Tacos,2457
+Sala de Aula 03,2468
+Centro de Distribuição Rio do Peixe,2471
+Bloco BD (UFCG),2476
+Escola Estadual da Liberdade,2480
+Maria Pitanga,2485
+Shopping Edson Diniz,2488
+IQuanta (UFCG),2490
+Estacionamento Ideal,2491
+Açaiteria,2498
+Bloco AJ1 (UFCG),2500
+2,2501
+Local de culturas e experimentos agrícolas.,2509
+Parque Motel,2510
+Bloco AA (Reitoria UFCG),2513
+Bloco CH1 (UFCG),2514
+Loja de Conveniência e Variedades,2516
+Residencial Montreal,2521
+Praça das Profissões,2530
+Volei de Praia,2538
+Comunidade Sagrada Família,2540
+Quadra do CAD,2549
+Igreja Evangélica Congregacional do Catolé,2551
+Estacionamento Futurama,2554
+Instituto Nacional do Semiárido,2556
+Lago da UFCG,2560
+Paladar da Terra,2561
+Mercadinho Junior,2564
+Bloco CV2 (UFCG),2565
+Parque de Exposição de Animais,2569
+Bloco 1A e Bloco 2A (Cipresa),2570
+Complexo O Amigão,2572
+Açude Velho,2573
+Capela Santa Rita de Cássia,2578
+Bloco CD1 (UFCG),2583
+SENAC,2589
+Hospital Pedro I,2590
+Eydental,2591
+Vila Serrotão,2612
+SIASS (UFCG),2617
+Quadra Hotel Garden,2623
+Convento Ipuarana,2640
+Campo dos Advogados,2642
+Açude Sindô Ribeiro,2648
+Bloco CE (UFCG),2652
+Restaurante Laranjeiras,2661
+1,2662
+Posto de Saude do Parque da Liberdade,2665
+Posto Dallas,2667
+Embedded-LIEC (UFCG),2674
+Escola Cidadã Integral Severino Cabral,2680
+Irmã Estefani,2682
+Farmacia Dias,2683
+Forúm Irineu Joffily - Justiça do Trabalho,2686
+Supermercado Bilão,2687
+Redepharma,2689
+Monumento Café,2694
+Praça das Humanidades,2695
+Biblioteca Poeta Zé da Luz,2696
+Agro Industrial (UFCG),2699
+Recanto Alegre,2701
+Bloco 1C e Bloco 2C (Cipresa),2710
+Cemitério do Araxá - Jeremias,2715
+Estacionamento Partage Shopping,2717
+Unidade Acadêmica de Arte e Mídia (UAAMI),2724
+Estacionamento do Rede Compras,2730
+Igreja Nossa Senhora Rainha da Paz,2732
+Chopp do Alemão,2737
+Bloko BK1 (UFCG),2739
+The H,2743
+Paróquia de São Pedro,2744
+Presídio do Serrotão,2745
+Bar do Nil,2751
+Bloco CN (UFCG),2755
+Carvalho Materiais de Construção,2760
+Panificadora Leal,2762
+Bloco AC (Restaurante Universitário - UFCG),2765
+31º Batalhão de Infantaria,2774
+Edifício Alice Diniz,2788
+igreja doutrina primitiva,2795
+Chapéu de Couro,2796
+GS Auto Posto,2797
+Barbearia,2800
+SEJA - Sociedade Espírita Joanna de Ângelis,2802
+SENAI CITI - Centro de Inovação e Tecnologia Industrial,2804
+Arquivo Setorial (UFCG),2807
+Mercearia São José,2809
+Jenipapo Internet e Papelaria,2811
+Bicho Mimado,2814
+Lanchonete do Baiano,2818
+Movida,2823
+SPLAB (UFCG),2824
+Alto da Serra,2831
+Praça do Rosário,2839
+Bloco AB (UFCG),2842
+Tapioca,2847
+Edifício Samuel Diniz,2849
+Mercadinho Maranata,2854
+Pão da Vida,2866
+Complexo Juridico Des. Luis Silvio Ramalho,2874
+Pracinha da Igreja de São Pedro,2891
+Salão de Festas Cipresa,2894
+Bob's,2896
+Esquadrão da Moda,2897
+Sala de Aula 06,2898
+Padaria Alvorada,2902
+Posto Ale - Posto Maia,2903
+Mercadinho Sousa,2906
+Arquibancada Sul,2908
+Escola Normal Estadual Padre Emídio Viana Correia,2910
+Comunidade Católica Shalom Missão Campina Grande,2911
+Banca e Conveniência,2913
+Pastel do Galego,2914
+Museu de Artes Assis Chateaubriand,2932
+Escola Municipal Almira de Oliveira,2936
+Casa do Colegial,2937
+Drogasil,2940
+Tapiocaria,2944
+Quadra de futebol,2945
+Cactos Lanches,2947
+Panificadora Basílio II,2966
+Brazauto,2968
+Escola José André da Rocha,2976
+UNINASSAU - Campus Palmeira,2978
+Nutri Vida,2983
+Estádio Governador Ernani Sátiro - O Amigão,2984
+O Amigão,2984
+Laboratório de Alta Tensão - LAT (UFCG),2992
+UFCG - Universidade Federal de Campina Grande,3004
+UFCG,3004
+Hiper Redepharma,3005
+Escola Estadual do José Pinheiro,3006
+Vila Centenário,3007
+Posto Unigás,3008
+Posto Amigão,3010
+Escola Municipal Manuel Francisco da Motta,3014
+Bloco BO (UFCG),3019
+Pães e Lanches,3031
+Loteamento Colinas do Sol,3035
+Restaurante Paulistano,3039
+Link Park,3043
+FACISA,3051
+Restaurante Universitário,3058
+BNB Clube,3063
+Bloco CZ1 (UFCG),3064
+Obelisco,3075
+Bloco BA (UFCG),3085
+Bloco CJ / CJ1 (UFCG),3090
+Skin Temakeria,3099
+Replastil,3105
+Laboratório de Sistemas de Informação - LSI,3107
+Slaviero Essential,3115
+Museu Digital,3117
+Campo de Futebol de Areia,3119
+Estacionamento Hiper Bompreço,3121
+Estacionamento Rotativo,3122
+"Instituto Federal de Educação, Ciência e Tecnologia da Paraíba",3123
+IFPB,3123
+Ministério Público,3130
+Faculdade Integrada de Patos,3132
+Vila Malvinas,3134
+Clube dos Bancários,3142
+Condomínio Rocha Cavalcante 2,3148
+Panificadora Servilha,3149
+Laboratório de Geologia,3166
+Churrascaria Alto da Serra,3167
+Bloco AG (UFCG),3168
+Laboratório de Informática 2,3182
+Bloco 1E e Bloco 2E (Cipresa),3186
+Açougue 3 Corações,3192
+Pátio Facisa,3195
+Poetize,3199
+Bloco BZ (Central de Aula - UFCG),3201
+Bloco BI (UFCG),3206
+La Suissa,3210
+Bar do Alex,3211
+Praça Antônio Pessoa,3223
+Igreja Uiversal do Catolé,3228
+Bloco BL (UFCG),3229
+Alojamaneto - Campo de Futebol (UFCG),3230
+Central de Línguas (UFCG),3232
+Museu do Semi-árido (UFCG),3244
+Água Verde,3248
+Piscina,3249
+São Jorge,3250
+Mercado Luna,3252
+Good China,3255
+Monumento aos Tropeiros da Borborema,3264
+Ginásio Poliesportivo,3266
+Panificadora e Mercadinho Novo Horizonte,3272
+Corpo de Bombeiros,3280
+Riacho das Piabas,3284
+Templo dos Testemunhos de Jeová,3288
+ESAC / TV ITARARE / FUNDAÇÃO PEDRO AMERICO,3289
+fiteiro do preto,3290
+Cinesercla,3302
+RM-Tech Assistência Técnica,3307
+2º batalhão de Policia Militar da PB,3308
+Shopping Partage,3309
+Well Bike,3310

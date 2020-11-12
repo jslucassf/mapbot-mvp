@@ -1,0 +1,29 @@
+version: "2.0"
+
+intents:
+  - greet
+  - place_description
+
+entities:
+  - landmark
+  - sr_at_street
+  - sr_front
+  - sr_near
+  - sr_next
+  - sr_between
+  - sr_left
+  - sr_right
+
+responses:
+  utter_instructions:
+  - text: "Olá. Sou o mapbot, um chatbot com geo poderes! Descreva a localização 
+            de um ponto de referência na cidade de Campina Grande que eu tentarei encontrá-lo
+            (Esta é apenas uma versão de teste, por favor descreva a localização do ponto: POLÍCIA FEDERAL)"
+
+  utter_foundit:
+  - text: "Ótimo, encontrei!"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

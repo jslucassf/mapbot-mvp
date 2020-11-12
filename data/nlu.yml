@@ -1,0 +1,105 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - Opa
+    - Olá
+    - Oi
+    - E aí
+    - bom dia
+    - boa noite
+    - ba noite
+    - começar
+    - fala
+    - boa tarde
+
+
+- intent: place_description
+  examples: |
+    - no [parque da criança](landmark)
+    - no [bairro do cruzeiro](landmark)
+
+    <!-- front examples -->
+    - o lugar fica [na frente do](sr_front) [shopping](landmark)
+    - [na frente da](sr_front) [entrada do shopping luiza motta](landmark)
+    - uma rua [na frente do](sr_front) [bar do cuscuz](landmark)
+    - uma rua [na frente do](sr_front) [estacionamento do shopping partage](landmark)
+    - [na frente](sr_front) da entrada do [shopping luiza motta](landmark)
+    - [em frente ao](sr_front) [açude velho](landmark)
+    - [na frente do](sr_front) [picanha 200](landmark)
+    - [na frente da](sr_front) [rodoviária nova](landmark)
+    - [em frente ao](sr_front) [assaí](landmark)
+    - [na frente da](sr_front) [cacau show](landmark)
+    - [na frente do](sr_front) [caic](landmark)
+    - [na frente do](sr_front) [posto avenida](landmark)
+    - [em frente ao](sr_front) [pedro I](landmark)
+
+    <!-- near examples -->
+    - o lugar é [perto do](sr_near) [terminal de integração](landmark)
+    - [próximo ao](sr_near) [estádio amigão](landmark)
+    - Um lugar [próximo ao](sr_near) [colégio panorama](landmark)
+    - um terreno [próximo ao](sr_near) [meninão](landmark)
+    - [próximo ao](sr_near) [hospital de trauma](landmark)
+    - [perto da](sr_near) [auto escola automotiva](landmark)
+    - [próximo à](sr_near) [UEPB](landmark)
+    - [próximo à](sr_near) [rua joão pessoa](landmark)
+    - [perto do](sr_near) [terminal de integração](landmark)
+    - [próximo ao](sr_near) [hotel village](landmark)
+    - [próximo à](sr_near) [AeC](landmark)
+    - [próximo ao](sr_near) [atacadão](landmark)
+    - [próximo ao](sr_near) [raul córdula](landmark)
+    - [perto do](sr_near) [parque do povo](landmark)
+    - [próximo ao](sr_near) [clube campestre](landmark)
+    - [próximo ao](sr_near) [shopping partage](landmark) e a [polícia federal](landmark)
+    - [perto do](sr_near) [amigão](landmark) e do [distrito dos mecânicos](landmark)
+    - [perto da](sr_near) [igreja do rosário](landmark) e do [estadual da prata](landmark)
+    
+    <!-- next examples -->
+    - [ao lado do](sr_next) [teatro municipal](landmark)
+    - [ao lado do](sr_next) [mc donalds](landmark)
+    - [ao lado do](sr_next) [açude novo](landmark)
+    - [ao lado da](sr_next) [igreja do cruzeiro](landmark)
+    - [ao lado do](sr_next) [boi e brasa](landmark)
+    - [ao lado da](sr_next) [academia portal](landmark)
+    - [ao lado da](sr_next) [igreja do cruzeiro](landmark)
+    - [ao lado do](sr_next) [garden hotel](landmark)
+    - [ao lado do](sr_next) [rodízio do paulista](landmark)
+    - [ao lado do](sr_next) [posto jardins](landmark)
+    - [ao lado do](sr_next) [boi e brasa](landmark)
+    
+    <!-- at street examples -->
+    - [Na mesma rua que](sr_at_street) a [igreja do rosário](landmark)
+    - [Na mesma rua que](sr_at_street) a [catedral](landmark)
+    - [na mesma rua do](sr_at_street) [colégio djanira tavares](landmark)
+    - [na rua da](sr_at_street) [ri happy](landmark)
+    - [na rua do](sr_at_street) [estádio presidente vargas](landmark)
+    - [na rua da](sr_at_street) [UFCG](landmark)
+    - [na rua do](sr_at_street) [motiva](landmark)
+    - [na rua da](sr_at_street) [la suissa](landmark)
+    - [na rua do](sr_at_street) [estádio presidente vargas](landmark)
+    - [na avenida](sr_at_street) [almirante barroso](landmark)
+    - estou [na avenida](sr_at_street) [Juscelino Kubistchek](landmark)
+    - [na rua](sr_at_street) [Ana Vilar](landmark)
+    - [na rua](sr_at_street) [Doutor João Cariri](landmark)
+    - o lugar fica [na rua](sr_at_street) [joão pessoa](landmark)
+
+    <!-- between examples -->
+    - [entre](sr_between) a [UFCG](landmark) e o [VIRTUS](landmark)
+    - [entre](sr_between) o [amigão](landmark) e o [distrito dos mecânicos](landmark)
+    
+    <!-- right examples -->
+    - [à direita do](sr_right) [amigão](landmark)
+    - [a direita da](sr_right) [feira central](landmark)
+    - [do lado direito do](sr_right) [MC Donalds](landmark)
+    - fica [à direita do](sr_right) [Shopping Edson Diniz](landmark)
+    - [a direita da](sr_right) [loja de roupas](landmark)
+    - Estou [do lado direito do](sr_right) [parque da criança](landmark)
+
+    <!-- left examples -->
+    - [à esquerda do](sr_left) [posto shopping](landmark)
+    - [a esquerda da](sr_left) [niscar](landmark)
+    - [do lado esquerdo do](sr_left) [colégio djanira tavares](landmark)
+    - [à esquerda do](sr_left) [campo do campinense](landmark)
+    - [a esquerda da](sr_left) [farmácia dias](landmark)
+    - Estou [do lado esquerdo do](sr_left) [terminal de integração](landmark)

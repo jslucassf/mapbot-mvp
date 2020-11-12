@@ -1,0 +1,73 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - Opa
+    - Olá
+    - Oi
+    - E aí
+    - bom dia
+    - boa noite
+    - ba noite
+    - começar
+    - fala
+    - boa tarde
+
+
+- intent: place_description
+  examples: |
+    - o lugar fica [na frente do](spatial_relation) [shopping](landmark)
+    - o lugar é [próximo ao](spatial_relation) [terminal de integração](landmark)
+    - [próximo ao](spatial_relation) [estádio amigão](landmark)
+    - [ao lado do](spatial_relation) [teatro municipal](landmark)
+    - [entre](spatial_relation) a [UFCG](landmark) e o [VIRTUS](landmark)
+    - duas quadras [após o](spatial_relation) [hospital da clipsi](landmark)
+    - [ao lado do](spatial_relation) [mc donalds](landmark)
+    - duas ruas [antes do](spatial_relation) [parque do povo](landmark)
+    - Um lugar [próximo ao](spatial_relation) [colégio panorama](landmark)
+    - [na frente da](spatial_relation) [entrada do shopping luiza motta](landmark)
+    - [Na mesma rua que](spatial_relation) a [igreja do rosário](landmark)
+    - [Na mesma rua que](spatial_relation) a [catedral](landmark)
+    - [na mesma rua que](spatial_relation) o [colégio djanira tavares](landmark)
+    - um terreno [próximo ao](spatial_relation) [meninão](landmark)
+    - [na rua da](spatial_relation) [ri happy](landmark)
+    - [próximo ao](spatial_relation) [hospital de trauma](landmark)
+    - [ao lado do](spatial_relation) [açude novo](landmark)
+    - uma rua [na frente do](spatial_relation) [bar do cuscuz](landmark)
+    - uma rua [na frente do](spatial_relation) [estacionamento do shopping partage](landmark)
+    - na frente da entrada do [shopping luiza motta](landmark)
+    - [em frente ao](spatial_relation) [açude velho](landmark)
+    - [na rua do](spatial_relation) [estádio presidente vargas](landmark)
+    - [ao lado da](spatial_relation) [igreja do cruzeiro](landmark)
+    - [próximo à](spatial_relation) [auto escola automotiva](landmark)
+    - ao lado doboi e brasa
+    - [na frente do](spatial_relation) [picanha 200](landmark)
+    - [próximo à](spatial_relation) [UEPB](landmark)
+    - [na rua da](spatial_relation) [UFCG](landmark)
+    - [na frente da](spatial_relation) [rodoviária nova](landmark)
+    - [próximo à](spatial_relation) [rua joão pessoa](landmark)
+    - [próximo ao](spatial_relation) [terminal de integração](landmark)
+    - [na rua do](spatial_relation) [motiva](landmark)
+    - [próximo ao](spatial_relation) [hotel village](landmark)
+    - [na rua da](spatial_relation) [la suissa](landmark)
+    - em frente ao [assaí](landmark)
+    - ao lado da [academia portal](landmark)
+    - próximo à [AeC](landmark)
+    - ao lado da [igreja do cruzeiro](landmark)
+    - na rua do [estádio presidente vargas](landmark)
+    - próximo ao [atacadão](landmark)
+    - ao lado do [garden hotel](landmark)
+    - na frente da [cacau show](landmark)
+    - próximo ao [raul córdula](landmark)
+    - em frente ao [pedro I](landmark)
+    - ao lado do [rodízio do paulista](landmark)
+    - ao lado do [posto jardins](landmark)
+    - na frente do [posto avenida](landmark)
+    - próximo ao [parque do povo](landmark)
+    - ao lado do [boi e brasa](landmark)
+    - próximo ao [clube campestre](landmark)
+    - no [parque da criança](landmark)
+    - no [bairro do cruzeiro](landmark)
+    - na avenida [almirante barroso](landmark)
+    - na frente do [caic](landmark)
