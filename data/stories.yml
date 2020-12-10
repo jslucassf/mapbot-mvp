@@ -7,4 +7,4 @@ stories:
   - intent: greet
   - action: utter_instructions
   - intent: place_description
-  - action: utter_foundit
+  - action: action_found_or_not
