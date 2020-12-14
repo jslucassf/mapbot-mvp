@@ -1,37 +1,30 @@
-version: "2.0"
-
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
 intents:
-  - greet
-  - place_description
-
+- greet
+- place_description
 entities:
-  - landmark
-  - sr_at_street
-  - sr_front
-  - sr_near
-  - sr_next
-  - sr_between
-  - sr_left
-  - sr_right
-
+- landmark
+- sr_at_street
+- sr_front
+- sr_near
+- sr_next
+- sr_between
+- sr_left
+- sr_right
 slots:
   found_place:
     type: bool
     initial_value: false
-
+    influence_conversation: true
 responses:
   utter_instructions:
-  - text: "Olá. Sou o mapbot, um chatbot com geo poderes! Descreva a localização 
-            de um ponto de referência na cidade de Campina Grande que eu tentarei encontrá-lo
-            (Esta é apenas uma versão de teste, por favor descreva a localização do ponto a seguir: https://goo.gl/maps/ydUYqQ7qcGsv9XTCA)"
-
+  - text: 'Olá. Sou o mapbot, um chatbot com geo poderes! Descreva a localização de
+      um ponto de referência na cidade de Campina Grande que eu tentarei encontrá-lo
+      (Esta é apenas uma versão de teste, por favor descreva a localização do ponto
+      a seguir: https://goo.gl/maps/ydUYqQ7qcGsv9XTCA)'
   utter_foundit:
-  - text: "Ótimo, encontrei!"
-
-
+  - text: Ótimo, encontrei!
 actions:
-  - action_found_or_not
-
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+- action_found_or_not

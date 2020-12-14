@@ -32,6 +32,22 @@ class GeoDAO:
 
         }
 
+    # TEMP
+    def contains_goal(self, acceptance_region):
+        connection = self.init_connection()
+        cursor = connection.cursor()
+
+        query = '''SELECT ST_Contains(ST_GeomFromGeoJSON('{}'),
+                                    ST_GeomFromText('POINT(-35.8709436 -7.2322137)', 4326));''' \
+                                    .format(acceptance_region)
+
+        cursor.execute(query)
+        contains = cursor.fetchall()[0][0]
+
+        self.close_connection(connection)
+
+        return contains
+
     def resolve_spatial_relation(self, relationship):
         relation_function = get_appropriate_relation_function(relationship["relation"]["relation_name"])
         

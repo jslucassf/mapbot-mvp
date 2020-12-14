@@ -56,7 +56,13 @@ class ActionFoundOrNot(Action):
 
         for relationship in relation_and_references:
 
-            print(geoDAO.resolve_spatial_relation(relationship))
+            relation_region = geoDAO.resolve_spatial_relation(relationship)[0]
 
-        dispatcher.utter_message(text="Hello World!")
+            found_or_not = geoDAO.contains_goal(relation_region)
+
+            if(found_or_not):
+                dispatcher.utter_message(text="Localização encontrada, obrigado!")
+            else:
+                dispatcher.utter_message(text="Não consegui encontrar a localização " +
+                                                "na região que você descreveu, poderia tentar mais uma vez?")
         return []
