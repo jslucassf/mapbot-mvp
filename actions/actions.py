@@ -11,7 +11,11 @@ from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from database.geoDAO import GeoDAO
+from database.conversationDAO import ConversationDAO
 from utils.filterNLUData import filter_spatial_relation, filter_landmark
+from time import time
+
+DEBUG_LOGS = False
 
 class ActionFoundOrNot(Action):
     def name(self) -> Text:
@@ -47,22 +51,36 @@ class ActionFoundOrNot(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        
+
         spatial_relations, landmarks = self.get_current_entities(tracker.latest_message["entities"])
         
         relation_and_references = self.get_relation_and_references(spatial_relations, landmarks)
 
         geoDAO = GeoDAO()
 
+        relation_regions = []
         for relationship in relation_and_references:
+            if DEBUG_LOGS:
+                print(relationship)
+            relation_regions.append(geoDAO.resolve_spatial_relation(relationship)[0])
 
-            relation_region = geoDAO.resolve_spatial_relation(relationship)[0]
+        acceptance_region = geoDAO.intersect_regions(relation_regions)
 
-            found_or_not = geoDAO.contains_goal(relation_region)
+        if DEBUG_LOGS:
+            print(relation_regions)
+            print('------------')
+            print(acceptance_region)
 
-            if(found_or_not):
-                dispatcher.utter_message(text="Localização encontrada, obrigado!")
-            else:
-                dispatcher.utter_message(text="Não consegui encontrar a localização " +
-                                                "na região que você descreveu, poderia tentar mais uma vez?")
+        conversationDAO = ConversationDAO()
+
+        if False: # Disable to prevent inserting too much data into the DB while testing
+            conversationDAO.insert_interaction(tracker, acceptance_region)        
+        
+        found_or_not = geoDAO.contains_goal(acceptance_region)
+
+        if(found_or_not):
+            dispatcher.utter_message(text="Localização encontrada, obrigado!")
+        else:
+            dispatcher.utter_message(text="Não consegui encontrar a localização " +
+                                            "na região que você descreveu, poderia tentar mais uma vez?")
         return []

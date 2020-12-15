@@ -5,38 +5,38 @@
 #cursor = db_connection.cursor()
 
 def front(reference_id, cursor):
-    query = "SELECT ST_AsGeoJSON(front({}))".format(reference_id)
+    query = "SELECT front({})".format(reference_id)
     cursor.execute(query)
     return cursor.fetchall()[0]
 
 def left_of(reference_id, cursor):
-    query = "SELECT ST_AsGeoJSON(left_of({}))".format(reference_id)
+    query = "SELECT left_of({})".format(reference_id)
     cursor.execute(query)
     return cursor.fetchall()[0]
 
 def right_of(reference_id, cursor):
-    query = "SELECT ST_AsGeoJSON(right_of({}))".format(reference_id)
+    query = "SELECT right_of({})".format(reference_id)
     cursor.execute(query)
     return cursor.fetchall()[0]
 
 def at_street(reference_id, cursor):
-    query = "SELECT ST_AsGeoJSON(at_street({}))".format(reference_id)
+    query = "SELECT at_street({})".format(reference_id)
     cursor.execute(query)
     return cursor.fetchall()[0]
 
 def next_to(reference_id, cursor):
-    query = "SELECT ST_AsGeoJSON(next_to({}))".format(reference_id)
+    query = "SELECT next_to({})".format(reference_id)
     cursor.execute(query)
     return cursor.fetchall()[0]
 
 def near(reference_id, cursor):
-    query = "SELECT ST_AsGeoJSON(near({}))".format(reference_id)
+    query = "SELECT near({})".format(reference_id)
     cursor.execute(query)
     return cursor.fetchall()[0]
 
 def between(reference_ids, cursor):
     reference_1_id, reference_2_id = reference_ids
-    query = "SELECT ST_AsGeoJSON(in_between({}, {}))".format(reference_1_id, reference_2_id)
+    query = "SELECT in_between({}, {})".format(reference_1_id, reference_2_id)
     cursor.execute(query)
     return cursor.fetchall()[0]
 

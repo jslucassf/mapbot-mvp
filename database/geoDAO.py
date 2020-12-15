@@ -27,7 +27,7 @@ class GeoDAO(ObjectDAO):
 
     # TEMP
     def contains_goal(self, acceptance_region):
-        query = '''SELECT ST_Contains(ST_GeomFromGeoJSON('{}'),
+        query = '''SELECT ST_Contains('{}',
                                     ST_GeomFromText('POINT(-35.8709436 -7.2322137)', 4326));''' \
                                     .format(acceptance_region)
 
@@ -58,7 +58,7 @@ class GeoDAO(ObjectDAO):
     def intersect_regions(self, regions):
         current_region = regions[0]
         for region_index in range(1, len(regions)):
-            query = '''SELECT ST_AsGeoJSON(ST_Intersection(ST_GeomFromGeoJSON('{}'), ST_GeomFromGeoJSON('{}')));''' \
+            query = '''SELECT ST_Intersection('{}', '{}');''' \
                                     .format(current_region, regions[region_index])
 
             current_region = self.run_query(query)

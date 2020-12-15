@@ -10,13 +10,24 @@ class ObjectDAO:
     def close_connection(self, db_connection):
         db_connection.close()
 
+    def run_insert(self, query):
+        connection = self.init_connection()
+        cursor = connection.cursor()
+
+        cursor.execute(query)
+
+        connection.commit()
+
+        self.close_connection(connection)
+
     def run_query(self, query):
         connection = self.init_connection()
         cursor = connection.cursor()
 
         cursor.execute(query)
+
         result = cursor.fetchall()[0][0]
 
         self.close_connection(connection)
 
-        return(result)
+        return result
