@@ -1,5 +1,4 @@
 version: "2.0"
-
 nlu:
 - intent: greet
   examples: |
@@ -13,15 +12,13 @@ nlu:
     - começar
     - fala
     - boa tarde
-
 - intent: place_description
   examples: |
     - no [parque da criança](landmark)
     - no [bairro do cruzeiro](landmark)
 
-    - o lugar fica [na frente do](sr_front) [shopping](landmark)
-    - [na frente da](sr_front) [entrada do shopping luiza motta](landmark)
-    - uma rua [na frente do](sr_front) [bar do cuscuz](landmark)
+    - [na frente do](sr_front) [luiza motta](landmark)
+    - uma rua [na frente do](sr_front) [Bar do Cuscuz](landmark)
     - uma rua [na frente do](sr_front) [estacionamento do shopping partage](landmark)
     - [na frente](sr_front) da entrada do [shopping luiza motta](landmark)
     - [em frente ao](sr_front) [açude velho](landmark)
@@ -32,12 +29,19 @@ nlu:
     - [na frente do](sr_front) [caic](landmark)
     - [na frente do](sr_front) [posto avenida](landmark)
     - [em frente ao](sr_front) [pedro I](landmark)
+    - [na frente do](sr_front) [parque](landmark)
+    - [em frente ao](sr_front) [restaurante](landmark)
+    - [na frente do](sr_front) [amigao](landmark)
+    - [em frente ao](sr_front) [partage shopping](landmark)
+    - [em frente ao](sr_front) [parque](landmark) e a [igreja](landmark)
+
 
     - o lugar é [perto do](sr_near) [terminal de integração](landmark)
     - [próximo ao](sr_near) [estádio amigão](landmark)
     - Um lugar [próximo ao](sr_near) [colégio panorama](landmark)
     - um terreno [próximo ao](sr_near) [meninão](landmark)
     - [próximo ao](sr_near) [hospital de trauma](landmark)
+    - [próximo ao](sr_near) [shopping luiza motta](landmark)
     - [perto da](sr_near) [auto escola automotiva](landmark)
     - [próximo à](sr_near) [UEPB](landmark)
     - [próximo à](sr_near) [rua joão pessoa](landmark)
@@ -45,27 +49,42 @@ nlu:
     - [próximo ao](sr_near) [hotel village](landmark)
     - [próximo à](sr_near) [AeC](landmark)
     - [nas proximidades do](sr_near) [parque do povo](landmark)
+    - [perto do](sr_near) [Shopping Partage](landmark)
     - [por perto da](sr_near) [facisa](landmark)
     - [próximo ao](sr_near) [atacadão](landmark)
     - [próximo ao](sr_near) [raul córdula](landmark)
     - [perto do](sr_near) [parque do povo](landmark)
+    - [perto do](sr_near) [maria pitanga](landmark)
     - [próximo ao](sr_near) [clube campestre](landmark)
+    - [perto do](sr_near) [estacionamento do shopping partage](landmark)
     - [próximo ao](sr_near) [shopping partage](landmark) e a [polícia federal](landmark)
     - [perto do](sr_near) [amigão](landmark) e do [distrito dos mecânicos](landmark)
     - [perto da](sr_near) [igreja do rosário](landmark) e do [estadual da prata](landmark)
-    
+    - [Padaria de Sulamita](landmark) [perto da](sr_near) [rua doutor João cariri](landmark), [Cruzeiro](landmark)
+
     - [ao lado do](sr_next) [teatro municipal](landmark)
     - [ao lado do](sr_next) [mc donalds](landmark)
     - [ao lado do](sr_next) [açude novo](landmark)
     - [ao lado da](sr_next) [igreja do cruzeiro](landmark)
     - [ao lado do](sr_next) [boi e brasa](landmark)
     - [ao lado da](sr_next) [academia portal](landmark)
-    - [ao lado da](sr_next) [igreja do cruzeiro](landmark)
     - [ao lado do](sr_next) [garden hotel](landmark)
     - [ao lado do](sr_next) [rodízio do paulista](landmark)
     - [ao lado do](sr_next) [posto jardins](landmark)
-    - [ao lado do](sr_next) [boi e brasa](landmark)
-    
+    - [ao lado do](sr_next) [posto](landmark)
+    - [ao lado da](sr_next) [igreja](landmark)
+    - [do lado do](sr_next) [açude](landmark)
+    - [Ao lado da](sr_next) [concessionária Renault](landmark)
+    - [Ao lado da](sr_next) [concessionária Renault](landmark) de Campina Grande
+    - [ao lado do](sr_next) [colégio panorama](landmark)
+    - [Shopping de carros semi-novos](landmark), [ao lado da](sr_next) [concessionária Renault](landmark) de Campina Grande.
+    - [Ao lado da](sr_next) [concessionária da Renault](landmark), [na mesma rua do](sr_at_street) [shopping cirne center](landmark)
+    - [ao lado da](sr_next) [renault](landmark)
+    - [ao lado da](sr_next) [maria pitanga](landmark)
+    - [ao lado da](sr_next) [igreja](landmark) e do [parque](landmark)
+    - [do lado da](sr_next) [nissan](landmark) e do [mc donalds](landmark)
+    - [do lado do](sr_next) [estacionamento da casa de festas](landmark) e do [restaurante japonês](landmark)
+
     - [Na mesma rua que](sr_at_street) a [igreja do rosário](landmark)
     - [Na mesma rua que](sr_at_street) a [catedral](landmark)
     - [na mesma rua do](sr_at_street) [colégio djanira tavares](landmark)
@@ -75,17 +94,30 @@ nlu:
     - [na rua do](sr_at_street) [motiva](landmark)
     - [na rua da](sr_at_street) [la suissa](landmark)
     - [na rua do](sr_at_street) [partage shopping](landmark)
-    - [na rua do](sr_at_street) [estádio presidente vargas](landmark)
+    - [na rua do](sr_at_street) [luiza motta](landmark)
     - [na avenida](sr_at_street) [almirante barroso](landmark)
     - estou [na avenida](sr_at_street) [Juscelino Kubistchek](landmark)
     - [na rua](sr_at_street) [Ana Vilar](landmark)
     - [na rua](sr_at_street) [Doutor João Cariri](landmark)
     - o lugar fica [na rua](sr_at_street) [joão pessoa](landmark)
+    - [Na mesma rua do](sr_at_street) [Partage shopping](landmark)
+    - [Na rua da](sr_at_street) [Renault](landmark)
+    - [na rua da](sr_at_street) [localiza hertz](landmark)
+    - [na rua do](sr_at_street) [colégio](landmark)
+    - [na rua do](sr_at_street) [parque](landmark)
+    - [na rua do](sr_at_street) [colégio djanira tavares](landmark)
+    - [na rua do](sr_at_street) [luiza motta](landmark)
+    - [Auto shopping Campina](landmark), [na rua do](sr_at_street) [partage shopping](landmark) e [extra supermercados](landmark)
+    - [na rua do](sr_at_street) [restaurante chinês](landmark) e do [estádio](landmark)
 
     - [entre](sr_between) a [UFCG](landmark) e o [VIRTUS](landmark)
     - [entre](sr_between) o [amigão](landmark) e o [distrito dos mecânicos](landmark)
+    - fica [entre](sr_between) o [autoshopping campina](landmark) e o [partage shopping](landmark)
+    - [entre](sr_between) o [auto shopping campina](landmark) e o [extra hipermercado](landmark)
     
     - [à direita do](sr_right) [amigão](landmark)
+    - [a direita do](sr_right) [parque](landmark)
+    - [do lado direito da](sr_right) [loja](landmark)
     - [a direita da](sr_right) [feira central](landmark)
     - [do lado direito do](sr_right) [MC Donalds](landmark)
     - fica [à direita do](sr_right) [Shopping Edson Diniz](landmark)
@@ -93,8 +125,26 @@ nlu:
     - Estou [do lado direito do](sr_right) [parque da criança](landmark)
 
     - [à esquerda do](sr_left) [posto shopping](landmark)
-    - [a esquerda da](sr_left) [niscar](landmark)
+    - [a esquerda da](sr_left) [Niscar](landmark)
+    - [a esquerda da](sr_left) [farmácia](landmark)
+    - [a esquerda da](sr_left) [igreja](landmark)
     - [do lado esquerdo do](sr_left) [colégio djanira tavares](landmark)
     - [à esquerda do](sr_left) [campo do campinense](landmark)
     - [a esquerda da](sr_left) [farmácia dias](landmark)
     - Estou [do lado esquerdo do](sr_left) [terminal de integração](landmark)
+    
+    - [na rua do](sr_at_street) [shopping partage](landmark), [na frente da](sr_front) [Niscar](landmark)
+    - [na frente da](sr_front) [localiza hertz](landmark), [na rua do](sr_at_street) [shopping partage](landmark)
+    - [na mesma rua do](sr_at_street) [luiza motta](landmark), [na frente do](sr_front) baiba espetinho
+    - [na frente do](sr_front) [baiba espetinho](landmark), [na mesma rua do](sr_at_street) [luiza motta](landmark)
+    - [na frente do](sr_front) [autoshopping campina](landmark) [perto da](sr_near) [concessionaria da renault](landmark)
+    - [ao lado da](sr_next) [automotiva](landmark) [perto do](sr_near) [autoshopping campina](landmark)
+    - [ao lado do](sr_next) [Bar do Cuscuz](landmark) [na rua](sr_at_street) da [maria pitanga](landmark)
+    - [a direita da](sr_right) [escola](landmark) [proximo da](sr_near) [praça](landmark)
+    - [na rua do](sr_at_street) [virtus](landmark), [entre a](sr_between) [UFCG](landmark) e a [UEPB](landmark)
+    - [na frente da](sr_front) [concessionária da nissan](landmark), [entre o](sr_between) [partage shopping](landmark) e o [autoshopping campina](landmark)
+    - [ao lado da](sr_next) [evviva bertolini](landmark) [na rua do](sr_at_street) [partage shopping](landmark)
+    - [perto do](sr_near) [posto shopping](landmark), [na rua do](sr_at_street) [jacauna](landmark)
+    - [a esquerda do](sr_left) [posto fechine](landmark) [na rua do](sr_at_street) [shopping luiza motta](landmark)
+    - [perto da](sr_near) [jacauna](landmark) [na mesma rua da](sr_at_street) [niscar](landmark)
+    - [ao lado da](sr_left) [posto santa ana](landmark) [na rua da](sr_at_street) [localiza hertz](landmark)
