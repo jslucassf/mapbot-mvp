@@ -1,17 +1,10 @@
 # TODO: THINK OF A BETTER NAME
 import psycopg2
+from database.objectDAO import ObjectDAO
 from utils.fuzzyLandmarkSearch import fuzzyLandmarkSearch
 from database.spatial_relations_functions import get_appropriate_relation_function
 
-class GeoDAO:
-    def init_connection(self):
-        db_connection = psycopg2.connect(host='localhost', database='cg_geo', 
-        user='postgres', password='elessar42')
-        
-        return db_connection
-
-    def close_connection(self, db_connection):
-        db_connection.close()
+class GeoDAO(ObjectDAO):
 
     def find_landmark(self, landmark_fk):
         connection = self.init_connection()
@@ -34,17 +27,11 @@ class GeoDAO:
 
     # TEMP
     def contains_goal(self, acceptance_region):
-        connection = self.init_connection()
-        cursor = connection.cursor()
-
         query = '''SELECT ST_Contains(ST_GeomFromGeoJSON('{}'),
                                     ST_GeomFromText('POINT(-35.8709436 -7.2322137)', 4326));''' \
                                     .format(acceptance_region)
 
-        cursor.execute(query)
-        contains = cursor.fetchall()[0][0]
-
-        self.close_connection(connection)
+        contains = self.run_query(query)
 
         return contains
 
@@ -67,3 +54,13 @@ class GeoDAO:
         self.close_connection(connection)
 
         return projection
+
+    def intersect_regions(self, regions):
+        current_region = regions[0]
+        for region_index in range(1, len(regions)):
+            query = '''SELECT ST_AsGeoJSON(ST_Intersection(ST_GeomFromGeoJSON('{}'), ST_GeomFromGeoJSON('{}')));''' \
+                                    .format(current_region, regions[region_index])
+
+            current_region = self.run_query(query)
+
+        return current_region
