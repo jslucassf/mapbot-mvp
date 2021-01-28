@@ -20,10 +20,8 @@ slots:
     influence_conversation: true
 responses:
   utter_instructions:
-  - text: 'Olá. Sou o mapbot, um chatbot com geo poderes! Descreva a localização de
-      um ponto de referência na cidade de Campina Grande que eu tentarei encontrá-lo
-      (Esta é apenas uma versão de teste, por favor descreva a localização do ponto
-      a seguir: https://goo.gl/maps/ydUYqQ7qcGsv9XTCA)'
+  - text: Olá. Sou o mapbot, um chatbot com geo poderes! Forneça uma descrição de
+      localização que eu tentarei interpretá-la.
   utter_foundit:
   - text: Ótimo, encontrei!
 actions:

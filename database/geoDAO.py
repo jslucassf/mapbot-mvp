@@ -48,6 +48,7 @@ class GeoDAO(ObjectDAO):
             projection = relation_function([true_entity_1["landmark_fk"], true_entity_2["landmark_fk"]], cursor)
         else:
             true_entity = fuzzyLandmarkSearch(relationship["landmark"]["text"])
+            print(true_entity)
 
             projection = relation_function(true_entity["landmark_fk"], cursor)
 

@@ -62,6 +62,7 @@ class ActionFoundOrNot(Action):
         for relationship in relation_and_references:
             if DEBUG_LOGS:
                 print(relationship)
+            
             relation_regions.append(geoDAO.resolve_spatial_relation(relationship)[0])
 
         acceptance_region = geoDAO.intersect_regions(relation_regions)
@@ -69,7 +70,8 @@ class ActionFoundOrNot(Action):
         if DEBUG_LOGS:
             print(relation_regions)
             print('------------')
-            print(acceptance_region)
+        
+        print(acceptance_region)
 
         conversationDAO = ConversationDAO()
 
